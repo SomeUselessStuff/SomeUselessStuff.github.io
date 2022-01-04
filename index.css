@@ -1,0 +1,22 @@
+/* Italiano */
+
+:root {
+    --carattere: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --colore: purple;
+    --sfondo: blue;
+}
+
+
+body {
+    background-color: var(--sfondo);
+    justify-content: center;
+}
+
+
+h1.titolo {
+    align-self: center;
+    color: var(--colore);
+
+    /* Seleziono dalla variabile carattere il font */
+    font-family: var(--carattere);
+}
