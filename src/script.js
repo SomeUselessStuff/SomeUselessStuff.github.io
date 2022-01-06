@@ -17,7 +17,7 @@ Array.from(document.getElementsByClassName('pulsantino')).forEach(pulsante => {
             pulsante.id++;
         } else {
             pulsante.style.color = colori[6];
-            pulsante.style.color = 0;
+            pulsante.style.color = '0';
         }
     })
 })
