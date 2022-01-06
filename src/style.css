@@ -13,6 +13,7 @@ button.pulsantino {
     background-color: var(--pulsantino);
     border-radius: 5px;
     font-size: xx-large;
+    width: 30px; /* Tutti larghi uguali */
 }
 button.pulsantino:hover {
     background-color: gray;
