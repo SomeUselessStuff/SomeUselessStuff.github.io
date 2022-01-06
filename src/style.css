@@ -14,3 +14,7 @@ button.pulsantino {
     border-radius: 5px;
     font-size: xx-large;
 }
+button.pulsantino:hover {
+    background-color: gray;
+    transform: scale(1.1);
+}
