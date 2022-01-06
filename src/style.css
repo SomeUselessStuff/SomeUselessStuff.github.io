@@ -1,0 +1,8 @@
+:root {
+    --sfondo: aqua;
+}
+
+
+body {
+    background-color: var(--sfondo);
+}
