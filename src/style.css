@@ -23,10 +23,25 @@ button.pulsantino:hover {
 
 
 div.contenitore {
-    background-color: transparent;
+    background-color: gainsboro;
     /*  */
+    border: 5px gray double;
+    border-radius: 20px;
+    /*  */
+    margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 17%;
+    /*  */
+    padding: 2%;
     /* */
     width: max-content;
+}
+
+
+div.grosso {
+    background-color: aquamarine;
+    border: 5px gray double;
+    border-radius: 20px;
+    height: 40%;
 }
