@@ -25,6 +25,8 @@ button.pulsantino:hover {
 
 div.contenitore {
     background-color: transparent;
+    /*  */
     margin-left: auto;
     margin-right: auto;
+    width: max-content;
 }
