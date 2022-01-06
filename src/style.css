@@ -13,7 +13,9 @@ button.pulsantino {
     background-color: var(--pulsantino);
     border-radius: 5px;
     font-size: xx-large;
-    width: 30px; /* Tutti larghi uguali */
+    /* Tutti larghi e alti uguali */
+    width: 50px;
+    height: 50px;
 }
 button.pulsantino:hover {
     background-color: gray;
