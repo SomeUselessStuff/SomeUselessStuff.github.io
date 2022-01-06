@@ -1,8 +1,16 @@
 :root {
-    --sfondo: aqua;
+    --pulsantino: black;
+    --sfondo: red;
 }
 
 
 body {
     background-color: var(--sfondo);
+}
+
+
+button.pulsantino {
+    background-color: var(--pulsantino);
+    border-radius: 5px;
+    font-size: xx-large;
 }
