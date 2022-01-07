@@ -7,6 +7,7 @@ var colori = [
     'blue', // blu: 5
     'purple' // viola: 6
 ]
+var alreadyClicked = false;
 
 
 Array.from(document.getElementsByClassName('pulsantino')).forEach(pulsante => {
@@ -27,5 +28,13 @@ var listaCheContieneSoloUnElemento = Array.from(document.getElementsByClassName(
 var pulsante = listaCheContieneSoloUnElemento[0];
 pulsante.addEventListener("click", function() {
     // La funzione deve rendere lo sfondo del pulsante trasparente ('transparent')
-    pulsante.style.backgroundColor = 'transparent';
+    pulsante.style.opacity = '1';
+    
+    if (!alreadyClicked) {
+        var icon = document.getElementsByTagName('link')[0];
+        icon.rel = 'icon';
+        icon.href = '../icons/spara coriandoli.ico';
+        document.getElementsByTagName('head')[0].appendChild(icon);
+        alreadyClicked = true;
+    }
 })

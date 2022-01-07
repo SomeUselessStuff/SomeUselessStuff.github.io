@@ -22,6 +22,19 @@ button.pulsantino:hover {
 }
 
 
+div.pulsantone {
+    background-color: var(--pulsantino);
+    border-radius: 20px;
+    height: max-content;
+    opacity: 0;
+    padding: 1%;
+    width: 100%;
+}
+div.pulsantone:hover {
+    background-color: gray;
+}
+
+
 div.contenitore {
     background-color: gainsboro;
     /*  */
