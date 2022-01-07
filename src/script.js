@@ -21,3 +21,11 @@ Array.from(document.getElementsByClassName('pulsantino')).forEach(pulsante => {
         }
     })
 })
+
+// Funzione che aggiunge un ascoltatore per il click al <button> con la classe "pulsantone"
+var listaCheContieneSoloUnElemento = Array.from(document.getElementsByClassName("pulsantone"));
+var pulsante = listaCheContieneSoloUnElemento[0];
+pulsante.addEventListener("click", function() {
+    // La funzione deve rendere lo sfondo del pulsante trasparente ('transparent')
+    pulsante.style.backgroundColor = 'transparent';
+})
