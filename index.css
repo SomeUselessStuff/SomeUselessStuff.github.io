@@ -20,3 +20,8 @@ h1.titolo {
     /* Seleziono dalla variabile carattere il font */
     font-family: var(--carattere);
 }
+
+h2.sritta {
+    align-self: auto;
+    color: ;
+}
