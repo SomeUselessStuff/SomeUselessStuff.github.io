@@ -57,4 +57,7 @@ div.grosso {
     border: 5px gray double;
     border-radius: 20px;
     height: 95vh;
+    opacity: 0.1;
+    /* In primo piano */
+    z-index: 1; /* Non serve in realtà 😅 */
 }

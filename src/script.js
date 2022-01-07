@@ -8,6 +8,7 @@ var colori = [
     'purple' // viola: 6
 ]
 var alreadyClicked = false;
+var alreadyClicked1 = false;
 
 
 Array.from(document.getElementsByClassName('pulsantino')).forEach(pulsante => {
@@ -37,4 +38,13 @@ pulsante.addEventListener("click", function() {
         document.getElementsByTagName('head')[0].appendChild(icon);
         alreadyClicked = true;
     }
+})
+
+
+// Funzione che aggiunge un ascoltatore per il click al <div> con la classe "grosso"
+var listaCheContieneSoloUnElemento = Array.from(document.getElementsByClassName("grosso"));
+var div = listaCheContieneSoloUnElemento[0];
+div.addEventListener("click", function() {
+    // La funzione deve rendere lo sfondo del pulsante trasparente ('transparent')
+    div.style.opacity = '1';
 })
