@@ -26,8 +26,10 @@ div.pulsantone {
     background-color: var(--pulsantino);
     border-radius: 20px;
     height: max-content;
-    opacity: 0;
-    padding: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.1;
+    padding: 3%;
     width: 100%;
 }
 div.pulsantone:hover {
@@ -36,6 +38,9 @@ div.pulsantone:hover {
 
 
 div.contenitore {
+    align-items: center;
+    align-content: center;
+    text-align: center;
     background-color: gainsboro;
     /*  */
     border: 5px gray double;
@@ -44,9 +49,9 @@ div.contenitore {
     margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 17%;
+    margin-top: 12%;
     /*  */
-    padding: 2%;
+    padding: 5%;
     /* */
     width: max-content;
 }

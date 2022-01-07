@@ -40,7 +40,7 @@ pulsante.addEventListener("click", function() {
 
         // Title
         var title = document.getElementsByTagName('title')[0];
-        title.innerHTML = 'BUON COMPLEANNO!';
+        title.innerHTML = 'BUON COMPLEANNO! 50 ANNI!';
 
         alreadyClicked = true;
     }
