@@ -32,10 +32,16 @@ pulsante.addEventListener("click", function() {
     pulsante.style.opacity = '1';
     
     if (!alreadyClicked) {
+        // Favicon
         var icon = document.getElementsByTagName('link')[0];
         icon.rel = 'icon';
         icon.href = '../icons/spara coriandoli.ico';
         document.getElementsByTagName('head')[0].appendChild(icon);
+
+        // Title
+        var title = document.getElementsByTagName('title')[0];
+        title.innerHTML = 'BUON COMPLEANNO!';
+
         alreadyClicked = true;
     }
 })
